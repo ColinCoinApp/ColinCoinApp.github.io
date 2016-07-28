@@ -29,7 +29,7 @@ function flip(choice){
 			document.getElementById('spin').style.display = 'none';
 			document.getElementById('heads').style.display = '';
 			updateScore();		
-		}, 1000)
+		}, 100)
 
 	}else{
 
@@ -43,7 +43,7 @@ function flip(choice){
 			document.getElementById('tails').style.display = '';
 			
 			updateScore();
-		}, 1000)
+		}, 100)
 	}
 }
 
